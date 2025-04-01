@@ -1,0 +1,46 @@
+.dot-typing-container {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  height: 24px;
+  position: relative;
+}
+
+.dot-typing {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 10px;
+}
+
+.dot-typing::before,
+.dot-typing::after,
+.dot-typing {
+  content: '';
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background-color: #4338ca;
+  margin: 0 4px;
+  animation: dot-typing 1.4s infinite ease-in-out;
+}
+
+.dot-typing::before {
+  content: '';
+  animation-delay: 0.2s;
+}
+
+.dot-typing::after {
+  content: '';
+  animation-delay: 0.4s;
+}
+
+@keyframes dot-typing {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-5px);
+  }
+} 
