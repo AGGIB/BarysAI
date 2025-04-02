@@ -62,6 +62,26 @@
   background: #555;
 }
 
+/* Mobile responsiveness for chat */
+@media (max-width: 768px) {
+  .markdown-content pre,
+  .markdown-content code {
+    max-width: 100%;
+    overflow-x: auto;
+  }
+  
+  .markdown-content img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  /* Improve touch targets on mobile */
+  button {
+    min-height: 36px;
+    min-width: 36px;
+  }
+}
+
 /* Typing animation */
 @keyframes dotBounce {
   0%, 80%, 100% { 
