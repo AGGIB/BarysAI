@@ -181,7 +181,7 @@ const AnimatedRoutes = ({ isAuthenticated, isAdmin, handleLogin, handleLogout, i
           method: 'POST',
           headers: {
             'Content-Type': 'application/json',
-            'Authorization': 'Bearer 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',
+            'Authorization': 'Bearer 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',
             'HTTP-Referer': window.location.origin,
             'X-Title': 'BarysAI'
           },
@@ -314,7 +314,7 @@ const AnimatedRoutes = ({ isAuthenticated, isAdmin, handleLogin, handleLogout, i
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
-          'Authorization': 'Bearer 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',
+          'Authorization': 'Bearer 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',
           'HTTP-Referer': window.location.origin,
           'X-Title': 'BarysAI'
         },
